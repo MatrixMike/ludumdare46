@@ -1,0 +1,8 @@
+{:paths   ["src" "resources"]
+ :deps    {org.clojure/clojurescript {:mvn/version "1.10.520"}
+           rum                       {:mvn/version "0.11.3"}
+           impi                      {:mvn/version "0.0.10"}}
+
+ :aliases {:dev {:extra-paths ["target" "test/src"]
+                 :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.4-SNAPSHOT"}
+                              com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}}}}}
